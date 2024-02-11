@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Nav from "./burger-menu/Nav";
+import Nav from "./burger-menu-framer-motion/Nav";
 
 export default function Home() {
   return (
