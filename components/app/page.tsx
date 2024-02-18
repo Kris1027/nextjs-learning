@@ -1,10 +1,6 @@
-import { useState } from "react";
-import Nav from "./burger-menu-framer-motion/Nav";
+import Link from "next/link";
+import FramerMotion from "./framer-motion/page";
 
 export default function Home() {
-  return (
-    <main className="p-28">
-      <Nav />
-    </main>
-  );
+  return <Link href="/framer-motion">Framer Motion</Link>;
 }
