@@ -16,7 +16,7 @@ const reducer = (count: number, action: any) => {
   }
 };
 
-export default function UseReducer() {
+export default function SimplyUseReducer() {
   const [count, dispatch] = useReducer(reducer, initialState);
   return (
     <div className="p-10 flex flex-col items-center">
