@@ -29,7 +29,10 @@ const reducer = (state: any, action: any) => {
     case "addTask":
       return {
         ...state,
-        tasks: [...state.tasks, { id: Date.now(), title: "new task" }],
+        tasks: [
+          ...state.tasks,
+          { id: state.tasks.length + 1, title: "new task" },
+        ],
       };
     case "deleteTask":
       return {
